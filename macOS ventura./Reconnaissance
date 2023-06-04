@@ -1,6 +1,0 @@
-Create Account (T1136)	
-                        
-| Command     | Character |
-|dscl -create /Users/ <username> | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
