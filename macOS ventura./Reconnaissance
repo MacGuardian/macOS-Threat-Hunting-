@@ -1,1 +1,4 @@
-test
+Create Account (T1136)	
+| command                         |
+| dscl -create /Users/ <username> |   
+
