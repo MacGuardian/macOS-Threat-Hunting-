@@ -6,5 +6,5 @@ Persistence
 
 | Technique   										| Command 	 		|Additional Details 	|
 | ------------- 									| ------------- |--------	|
-| Create Account (T1136)| dscl   	|	dscl 				|
+| **Create Account (T1136)**| dscl   	|	dscl 				|
 |							 									 | Content Cell 						 |
