@@ -1,0 +1,9 @@
+**Create Account (T1136)**
+
+Both administrators and adversaries alike use the DSCL, a native macOS tool to create, modify, and delete users. 
+The -create flag is used to create accounts, and the -delete flag can be used to remove users. 
+Simply look for instances of using the DSCL functionality with the create flag to threat hunt for account creation.
+Furthermore, users can be added or removed using the GUI. 
+
+
+scl -create /Users/ <username>
