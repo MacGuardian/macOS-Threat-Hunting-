@@ -6,4 +6,4 @@ Simply look for instances of using the DSCL functionality with the create flag t
 Furthermore, users can be added or removed using the GUI. 
 
 
-scl -create /Users/ <username>
+dscl -create /Users/ <username>
