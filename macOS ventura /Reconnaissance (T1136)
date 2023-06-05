@@ -1,10 +1,10 @@
-Technique: Create Account (T1136) 
+Technique: Create Account: Local Account ( T1136.001) 
 https://attack.mitre.org/techniques/T1136/001/
 
 Description: Both administrators and adversaries alike use the DSCL, a native macOS tool to create, modify, and delete users. 
 The equvilent of DSCL on Windows OS is the net command  
-The -create flag is used to create accounts, and the -delete flag can be used to remove users. 
-Simply look for instances of using the DSCL functionality with the create flag to threat hunt for account creation.
+The -create flag is used to create accounts, and the -delete flag can be used to remove users.  
+To threat hunt for this technique, simply look for instances of using the DSCL functionality with the create flag to threat hunt for account creation.
 Furthermore, users can be added or removed using the GUI. 
 
 
