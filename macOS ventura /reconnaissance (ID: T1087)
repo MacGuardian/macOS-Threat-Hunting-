@@ -1,0 +1,14 @@
+https://attack.mitre.org/techniques/T1087/
+
+The DSCL utility on macOS is a frequently used tool by adversaries. 
+The net command on the Windows OS is similar to the DSCL utility. 
+Here are a few examples of how to use this utility.
+The easiest way to threat hunt for this utility is to simply look for instances 
+where the DSCL command is being used in your environment to create new users or change passwords. 
+
+Commands: dscl ---- macOS utlity used to create, chanage and delete users on a host 
+          dscl . list /Users --- used to list all users.  
+          dscl -create /users/username 
+          dscl -delete //users/username
+          dscl passwd /Users/username  --- this will chanage the password for a given user 
+          
