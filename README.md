@@ -3,6 +3,13 @@ Welcome to the macOS Threat Hunting GitHub repository! This repository serves as
 
 **macOS Process Tree**
 
+Every other process on a macOS machine is a child of LaunchD, which is the first process to run when the machine boots.
+```mermaid
+graph TD;
+    LaunchD-->Terminal-->Sh-->whoami;
+   
+```
+
 **macOS Threat Hunting Resources**
 
 Genernal macOS security news
