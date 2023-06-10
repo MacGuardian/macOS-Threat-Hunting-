@@ -3,7 +3,7 @@ Welcome to the macOS Threat Hunting GitHub repository! This repository serves as
 
 **Threat Hunting Resources**
 
-Genernal macOS security news
+**Genernal macOS security news**
 https://macsecurity.net/news 
 
 **macOS threat hunting blogs by the themittenmac**
