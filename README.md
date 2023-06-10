@@ -18,4 +18,8 @@ graph TD;
    
 ```
 **Users**
-
+| Users ID | Description |
+| --- | --- |
+| 0 | List all new or modified files |
+| 500 | Show file differences that haven't been staged |
+| 501 | Show file differences that haven't been staged |
